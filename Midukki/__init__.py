@@ -95,7 +95,7 @@ class Configs(object):
     LOADING_A = environ.get("LOADING_SYMBOL_A", "⚪️")
     LOADING_B = environ.get("LOADING_SYMBOL_B", "⚫️")
     STOP_BOT = bool(environ.get("DEFAULT", False))
-    PORT_CODE = environ.get("PORT", "8080")
+    PORT_CODE = environ.get("PORT", "8081")
     broadcast_ids = {} # don't change this..!!  
     TG_MAX_SELECT_LEN = 100
 
